@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+$default-font: "Courier New";
+* {
+    font-family: $default-font;
+    color: indigo;
+}
