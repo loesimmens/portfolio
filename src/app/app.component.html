@@ -1,20 +1,42 @@
-<div class="container h-100">
-    <div class="row nav">
-        <app-nav></app-nav>
-    </div>
-        
-    <div class="row">
-        <div class="col-2"><app-index></app-index></div>
-        <div class="col-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla molestias mollitia ratione facilis eveniet velit optio, inventore ex illum earum fuga aspernatur quod, praesentium deleniti iure? Laborum nulla velit assumenda?
-            
-            <div class="card">
-                <h5>what to use a card for?</h5>
+<div class="container">
+    <app-nav></app-nav>
+    <main>
+        <div class="row">
+            <div class="col-3 col-xl-2"><app-index></app-index></div>
+            <div class="col-8 main-view">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla molestias mollitia ratione facilis eveniet velit optio, inventore ex illum earum fuga aspernatur quod, praesentium deleniti iure? Laborum nulla velit assumenda?
                 
+                <div class="card col-6">
+                    <b>what to use a card for?</b>
+                    This is a card with a 
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#helloModal">
+                        button
+                    </button>
+                </div>
+            </div>
+            <div class="col-3 col-xl-2">
+                <app-right-index></app-right-index>
             </div>
         </div>
-        <div class="col-2">
-            <app-right-index></app-right-index>
+    </main>
+    <app-footer class="fixed-bottom">© 2022 Loes Immens</app-footer>
+</div>
+
+<div class="modal" id="helloModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Hello</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                this is a modal!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>

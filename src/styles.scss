@@ -3,3 +3,13 @@ $default-font: "Courier New";
     font-family: $default-font;
     color: indigo;
 }
+html, body {
+    height: 100%;
+}
+app-root {
+    display: flex;
+    height: 100%;
+}
+
+
+
