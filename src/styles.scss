@@ -1,11 +1,13 @@
 $headings-font-family: 'Ubuntu', Sans-Serif;
 $headings-font-size: 48px;
+$headings-text-color: indigo;
 $text-font-family: 'Open Sans', Sans-Serif;
 $text-font-size: 15px;
+$text-color: black;
 * {
     font-family: $text-font-family;
     font-size: $text-font-size;
-    color: indigo;
+    color: $text-color;
 }
 html, body {
     height: 100%;
@@ -16,19 +18,30 @@ app-root {
 }
 h1 {
     font-family: $headings-font-family;
-    font-size: $headings-font-size;
+    color: $headings-text-color;
 }
 h2 {
     font-family: $headings-font-family;
+    color: $headings-text-color;
 }
 h3 {
     font-family: $headings-font-family;
+    color: $headings-text-color;
 }
 h4 {
     font-family: $headings-font-family;
+    color: $headings-text-color;
 }
 h5 {
     font-family: $headings-font-family;
+    color: $headings-text-color;
+}
+.card {
+    padding: 10px;
+    margin: 10px;
+}
+.card-text {
+    padding-bottom: 10px;
 }
 
 
