@@ -1,5 +1,34 @@
-$default-font: "Courier New";
+$headings-font-family: 'Ubuntu', Sans-Serif;
+$headings-font-size: 48px;
+$text-font-family: 'Open Sans', Sans-Serif;
+$text-font-size: 15px;
 * {
-    font-family: $default-font;
+    font-family: $text-font-family;
+    font-size: $text-font-size;
     color: indigo;
 }
+html, body {
+    height: 100%;
+}
+app-root {
+    display: flex;
+    height: 100%;
+}
+h1 {
+    font-family: $headings-font-family;
+    font-size: $headings-font-size;
+}
+h2 {
+    font-family: $headings-font-family;
+}
+h3 {
+    font-family: $headings-font-family;
+}
+h4 {
+    font-family: $headings-font-family;
+}
+h5 {
+    font-family: $headings-font-family;
+}
+
+
