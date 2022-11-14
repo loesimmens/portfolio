@@ -1,9 +1,18 @@
-$main-color: rgb(250, 50, 76);
+$background-color: rgb(250, 50, 76);
+$text-color: white;
+$font-family: 'Ubuntu', Sans-Serif;
+$font-size-title: 40px;
+$font-size-buttons: 24px;
 * {
-    background-color: $main-color;
-    color: white;
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $font-family;
+    font-size: $font-size-buttons;
 }
 .nav-row {
     padding: 1%;
     align-items: center;
+}
+.nav-title {
+    font-size: $font-size-title;
 }
