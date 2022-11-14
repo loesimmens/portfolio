@@ -1,8 +1,8 @@
 $background-color: rgb(250, 50, 76);
 $text-color: white;
 $font-family: 'Ubuntu', Sans-Serif;
-$font-size-title: 40px;
-$font-size-buttons: 24px;
+$font-size-title: 16px;
+$font-size-buttons: 16px;
 * {
     background-color: $background-color;
     color: $text-color;
@@ -10,7 +10,7 @@ $font-size-buttons: 24px;
     font-size: $font-size-buttons;
 }
 .nav-row {
-    padding: 1%;
+    padding: 2%;
     align-items: center;
 }
 .nav-title {
