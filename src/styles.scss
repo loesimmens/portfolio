@@ -15,14 +15,16 @@
   'src/styles/base/typography';
 //   'base/helpers';
 
-// // 4. Layout-related sections
-// @import
+// 4. Layout-related sections
+@import
+    'src/styles/layout/main';
 //   'layout/header',
 //   'layout/footer';
 
-// // 5. Components
-// @import
-//   'components/button';
+// 5. Components
+@import
+  'src/styles/components/button',
+  'src/styles/components/card'
 
 // // 6. Page-specific styles
 // @import
@@ -31,20 +33,3 @@
 // // 7. Themes
 // @import
 //   'themes/default';
-
-html, body {
-    height: 100%;
-}
-app-root {
-    display: flex;
-    height: 100%;
-}
-.card {
-    padding: 10px;
-    margin: 10px;
-}
-.card-text {
-    padding-bottom: 10px;
-}
-
-

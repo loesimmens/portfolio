@@ -1,10 +1,6 @@
-@import
-'src/styles/abstracts/variables';
+@import 'src/styles/abstracts/variables';
+@import 'src/styles/base/base';
 
 .main-view {
     padding: 20px;
-}
-.btn-custom {
-    background-color: $button-background-color;
-    color: $button-text-color;
 }
