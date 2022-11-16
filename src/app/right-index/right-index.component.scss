@@ -1,6 +1,10 @@
+@import
+'src/styles/abstracts/variables';
+
 *{
-    background-color: lightsteelblue;
-    color: black;
+    background-color: $background-color-right-index;
+    color: $text-color-grey;
+    font-family: $headings-font-family;
 }
 .index-item {
     padding-top: 20px;

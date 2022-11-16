@@ -1,7 +1,10 @@
+@import
+'src/styles/abstracts/variables';
+
 .main-view {
     padding: 20px;
 }
 .btn-custom {
-    background-color: indigo;
-    color: white;
+    background-color: $button-background-color;
+    color: $button-text-color;
 }
