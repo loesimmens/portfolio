@@ -1,5 +1,9 @@
+@import
+'src/styles/abstracts/variables';
+
 * {
-    background-color: rgb(247, 247, 247);
+    background-color: $background-color-footer;
+    color: $text-color-grey
 }
 .footer {
     padding: 10px;

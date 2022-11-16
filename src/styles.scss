@@ -1,34 +1,35 @@
-$headings-font-family: 'Ubuntu', Sans-Serif;
-$headings-font-size: 48px;
-$text-font-family: 'Open Sans', Sans-Serif;
-$text-font-size: 15px;
-* {
-    font-family: $text-font-family;
-    font-size: $text-font-size;
-    color: indigo;
-}
-html, body {
-    height: 100%;
-}
-app-root {
-    display: flex;
-    height: 100%;
-}
-h1 {
-    font-family: $headings-font-family;
-    font-size: $headings-font-size;
-}
-h2 {
-    font-family: $headings-font-family;
-}
-h3 {
-    font-family: $headings-font-family;
-}
-h4 {
-    font-family: $headings-font-family;
-}
-h5 {
-    font-family: $headings-font-family;
-}
+// 1. Configuration and helpers
+@import
+'src/styles/abstracts/variables';
+//   'abstracts/functions',
+//   'abstracts/mixins';
 
+// // 2. Vendors
+// @import
+//   'vendors/normalize';
 
+// 3. Base stuff
+@import
+  'src/styles/base/base',
+//   'src/styles/base/fonts',
+  'src/styles/base/typography';
+//   'base/helpers';
+
+// 4. Layout-related sections
+@import
+    'src/styles/layout/main';
+//   'layout/header',
+//   'layout/footer';
+
+// 5. Components
+@import
+  'src/styles/components/button',
+  'src/styles/components/card'
+
+// // 6. Page-specific styles
+// @import
+//   'pages/home';
+
+// // 7. Themes
+// @import
+//   'themes/default';
