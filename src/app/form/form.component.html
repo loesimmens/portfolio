@@ -1,0 +1,19 @@
+<section>
+    <h1>Reactive Form</h1>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <p>
+            <label>First Name:</label>
+            <input type="text" formControlName="firstName">
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" formControlName="password">
+        </p>
+        <p>
+            <button type="submit" [disabled]="!form.valid">Submit</button>
+            <button (click)="partialUpdate()">Partial Update</button>
+            <button (click)="fullUpdate()">Full Update</button>
+            <button (click)="reset()">Cancel</button>
+        </p>
+    </form>
+</section>
